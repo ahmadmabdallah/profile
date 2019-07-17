@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Serif+Pro&display=swap');
+
+body {
+  background-color: #FFF7F7;
+  font-family: 'Source Serif Pro', serif;
+  color: #252525;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1, h3 {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.2;
+}
+
+h1 {
+  color:#293462;
+}
+
+h4 {
+  color:#f3826f;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding: 0;
+  font-size: 25px;
+  margin-top: 5px;
+}
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 40px auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1)
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: #6b778d;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 3px; # why 50% not work??
+}
+
+.btn-blue:hover {
+  background-color: #ffb6b9;
+}
+
+.social-icon {
+  color: #63707e;
+}
+
+.social-icon:hover {
+  color: black;
+}
+
+.img-rounded {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
